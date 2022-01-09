@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/a
 
 export default class Content extends React.Component {
 	render() {
-		const iconSize = 65;
+		const iconSize = 70;
 		return (
 			<div>
 				<div>
