@@ -10,16 +10,15 @@
 .nav-item {
   display: inline;
   margin-right: 3%;
-  color: #333;
+  color: #333333;
 }
 
 .nav-item:hover {
-  color: blue;
   cursor: pointer;
 }
 
 .nav-item > .active {
-    border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #333333;
 }
 
 .section-content-1 {
@@ -27,6 +26,18 @@
   padding: 350px;
   background-color: #FFBBDD;
   text-align: center;
+}
+
+.section-content-icon-block {
+  display: inline;
+  margin-right: 5%;
+}
+
+.section-content-icon {
+  color: #000000;
+}
+.section-content-icon:hover {
+  color: #999999;
 }
 
 .section-content-2 {

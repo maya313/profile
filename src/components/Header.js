@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 
 export default class Header extends React.Component {
 	render() {
+		const duration = 500;
 		return (
 			<div className="nav">
 				<ul>
@@ -12,7 +13,7 @@ export default class Header extends React.Component {
 						to="link"
 						spy={true}
 						smooth={true}
-						duration={500}
+						duration={duration}
 						>
 							Link
 						</Link>
@@ -23,7 +24,7 @@ export default class Header extends React.Component {
 						to="career"
 						spy={true}
 						smooth={true}
-						duration={500}
+						duration={duration}
 						>
 							Career
 						</Link>
@@ -34,7 +35,7 @@ export default class Header extends React.Component {
 						to="qualification"
 						spy={true}
 						smooth={true}
-						duration={500}
+						duration={duration}
 						>
 							Qualification
 						</Link>
